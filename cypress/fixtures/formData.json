@@ -1,0 +1,17 @@
+{
+  "firstName": "George",
+  "lastName": "Junior",
+  "email": "somerandomemail@randomdomain.com",
+  "currentAddress": "Some Random Address in some place",
+  "gender":"Male",
+  "mobileNr":312312311,
+  "dateOfBirht":"28 February,1930",
+  "month":"February",
+  "year":"1930",
+  "date":"28",
+  "subjects":"Economics",
+  "hobbies":"Music",
+  "state":"NCR",
+  "city":"Delhi",
+  "filePath":"files/e6fdog.jpeg"
+}
