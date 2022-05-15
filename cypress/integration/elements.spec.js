@@ -8,8 +8,8 @@ context("Elements Page", () => {
 		});
 
 		it("Filling in Text Boxes", () => {
-			// Add scenario stuff here
 			// Input information
+			// Data for input is from fixtures fromData.json
 			PracticeForm.firstName.type(
 				formData.firstName
 			);
@@ -54,7 +54,8 @@ context("Elements Page", () => {
 			);
 			PracticeForm.submit.click({ force: true });
 
-			//Checking if info
+			//Data validation from output table
+			//Data is validated from fixtures data formData.json
 
 			PracticeForm.finalTable
 				.should(
